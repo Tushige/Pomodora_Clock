@@ -1,0 +1,42 @@
+header h1{
+  text-align:center;
+  color:white;
+  font:60px Lobster, Monospace;
+  padding:5px;
+}
+body {
+  background-color:#1f3e5c;
+}
+.timer_title {
+  color:white;
+  text-align:center;
+}
+/*===========WORK AND BREAK TIMER NUMBERS==================*/
+span {
+  text-align:center;
+  float:right;
+  width:100%;
+  margin:0px;
+  font-size:30px;
+  color:white;
+}
+/*==============TIMER KEYS===============*/
+.up-key, .down-key {
+  color:#d15b23;
+  width:100%;
+  text-align:center;
+  float:left;
+  cursor:pointer;
+}
+.up-key:active, .down-key:active {
+  color:#813a18;
+}
+/*==================TIMER====================*/
+#countdown{
+  cursor:pointer;
+}
+#countdown, #timer {
+  color:white;
+  text-align:center;
+  font-family:Bitter, Monospace;
+}
